@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Mada:wght@300;400;600;700&display=swap");
+:root {
+  --main-bg: #f4f7fe;
+  --white-card: #ffffff;
+  --navy-blue: #171616df;
+  --gray-text: #a3aed0;
+  --primary-blue: #4318ff;
+  --success-green: #05cd99;
+
+  --font-main: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #ffffff 0%, #dde4f1 100%);
+  background-attachment: fixed;
+  color: var(--navy-blue);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.brand-name {
+  font-family: "Mada", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: #000;   */
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(160, 128, 22);
+}

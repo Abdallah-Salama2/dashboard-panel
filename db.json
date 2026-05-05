@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "ameerah",
+      "password": "123",
+      "fullName": "Ameerah Howard",
+      "role": "Admin"
+    }
+  ],
+  "stats": [
+    {
+      "id": "1",
+      "title": "Gross Revenue",
+      "value": "$2,480",
+      "decimal": ".32",
+      "percentage": "8.33%",
+      "isPositive": true,
+      "date": "From Jan 01, 2025 - March 30, 2026"
+    },
+    {
+      "id": "2",
+      "title": "Avg. Order Value",
+      "value": "$320",
+      "decimal": ".21",
+      "percentage": "8.33%",
+      "isPositive": false,
+      "date": "From Jan 01, 2025 - March 30, 2026"
+    },
+    {
+      "id": "3",
+      "title": "Total Orders",
+      "value": "$1,899",
+      "decimal": ".49",
+      "percentage": "8.33%",
+      "isPositive": true,
+      "date": "From Jan 01, 2025 - March 30, 2026"
+    }
+  ],
+  "transactionActivity": [
+    { "month": "Jan", "total": 360, "success": 250 },
+    { "month": "Feb", "total": 280, "success": 310 },
+    { "month": "Mar", "total": 250, "success": 240 },
+    { "month": "Apr", "total": 400, "success": 220 },
+    { "month": "May", "total": 300, "success": 340 },
+    { "month": "Jun", "total": 260, "success": 320 },
+    { "month": "Jul", "total": 380, "success": 280 },
+    { "month": "Aug", "total": 420, "success": 350 },
+    { "month": "Sep", "total": 350, "success": 400 },
+    { "month": "Oct", "total": 450, "success": 380 },
+    { "month": "Nov", "total": 360, "success": 280 },
+    { "month": "Dec", "total": 240, "success": 220 }
+  ],
+  "salesPerformance": [
+    { "month": "Jan", "sales": 250 },
+    { "month": "Feb", "sales": 420 },
+    { "month": "Mar", "sales": 480 },
+    { "month": "Apr", "sales": 520 },
+    { "month": "May", "sales": 610 },
+    { "month": "Jun", "sales": 450 },
+    { "month": "Jul", "sales": 380 },
+    { "month": "Aug", "sales": 280 },
+    { "month": "Sep", "sales": 350 },
+    { "month": "Oct", "sales": 480 },
+    { "month": "Nov", "sales": 320 },
+    { "month": "Dec", "sales": 510 }
+  ],
+  "productStatistics": [
+    { "month": "Jan", "actual": 240, "remain": 210 },
+    { "month": "Feb", "actual": 430, "remain": 170 },
+    { "month": "Mar", "actual": 170, "remain": 280 },
+    { "month": "Apr", "actual": 290, "remain": 210 },
+    { "month": "May", "actual": 170, "remain": 260 },
+    { "month": "Jun", "actual": 270, "remain": 180 },
+    { "month": "Jul", "actual": 210, "remain": 160 },
+    { "month": "Aug", "actual": 30, "remain": 250 },
+    { "month": "Sep", "actual": 480, "remain": 50 },
+    { "month": "Oct", "actual": 110, "remain": 240 },
+    { "month": "Nov", "actual": 370, "remain": 40 },
+    { "month": "Dec", "actual": 250, "remain": 190 }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "New York Store",
+      "performance": 78,
+      "activeMembers": 12,
+      "avatars": [
+        "https://i.pravatar.cc/100?u=1",
+        "https://i.pravatar.cc/100?u=2",
+        "https://i.pravatar.cc/100?u=3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Los Angeles Store",
+      "performance": 78,
+      "activeMembers": 12,
+      "avatars": [
+        "https://i.pravatar.cc/100?u=4",
+        "https://i.pravatar.cc/100?u=5",
+        "https://i.pravatar.cc/100?u=6"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chicago Store",
+      "performance": 78,
+      "activeMembers": 12,
+      "avatars": [
+        "https://i.pravatar.cc/100?u=7",
+        "https://i.pravatar.cc/100?u=8",
+        "https://i.pravatar.cc/100?u=9"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Houston Store",
+      "performance": 78,
+      "activeMembers": 12,
+      "avatars": [
+        "https://i.pravatar.cc/100?u=10",
+        "https://i.pravatar.cc/100?u=11",
+        "https://i.pravatar.cc/100?u=12"
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "title": "Meeting with Arthur Bell",
+      "time": "09:00 - 09:45 AM (UTC)",
+      "type": "Product Design",
+      "platform": "On Google Meet",
+      "color": "#E2E9FF",
+      "textColor": "#4318FF"
+    },
+    {
+      "id": 2,
+      "title": "Meeting with Leslie Perez",
+      "time": "09:00 - 09:45 AM (UTC)",
+      "type": "Marketing Business",
+      "platform": "On Google Meet",
+      "color": "#E6F9F0",
+      "textColor": "#05CD99"
+    },
+    {
+      "id": 3,
+      "title": "Meeting with Abdo Salamah",
+      "time": "09:00 - 09:45 AM (UTC)",
+      "type": "Interview",
+      "platform": "On Google Meet",
+      "color": "#E6F9F0",
+      "textColor": "red"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Liam Anderson Red",
+      "status": "In Stock",
+      "revenue": "$1240.22",
+      "sales": "1,909",
+      "reviews": "2,102",
+      "views": "3,022",
+      "active": true,
+      "img": "https://placehold.co/600x400"
+    },
+    {
+      "id": 2,
+      "name": "Ava Reynolds Blue",
+      "status": "In Stock",
+      "revenue": "$1240.22",
+      "sales": "1,909",
+      "reviews": "2,102",
+      "views": "3,022",
+      "active": true,
+      "img": "https://placehold.co/600x400"
+    },
+    {
+      "id": 3,
+      "name": "Jackson White Blue",
+      "status": "In Stock",
+      "revenue": "$1240.22",
+      "sales": "1,909",
+      "reviews": "2,102",
+      "views": "3,022",
+      "active": false,
+      "img": "https://placehold.co/600x400"
+    }
+  ],
+  "conversionRate": [
+    { "label": "Product Views", "value": "6,575", "sub": "29%" },
+    { "label": "Add to Cart", "value": "6,575", "sub": "29%" },
+    { "label": "Checkout Initiated", "value": "6,575", "sub": "29%" },
+    { "label": "Completed Purchases", "value": "6,575", "sub": "29%" }
+  ]
+}

@@ -1,0 +1,17 @@
+/* الحالة العادية */
+.nav-icon-box {
+  color: #a3aed0;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-icon-box:hover {
+  background-color: #f4f7fe;
+  color: #29292a;
+  cursor: pointer;
+}
+
+.active-icon {
+  background-color: #000 !important;
+  color: #ffffff !important;
+}
