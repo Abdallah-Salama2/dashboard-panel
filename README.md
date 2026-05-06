@@ -4,9 +4,9 @@
 
 ## 🚀 Live Demo
 
-Frontend (Vercel): https://dashboard-panel-zeta.vercel.app/
+- Frontend (Vercel): https://dashboard-panel-zeta.vercel.app/
 
-## Backend API (Railway): https://dashboard-panel-production-e50c.up.railway.app/
+- Backend API (Railway): https://dashboard-panel-production-e50c.up.railway.app/
 
 ## 📂 Project Structure
 
