@@ -6,6 +6,9 @@ import Dashboard from "./pages/Dashboard";
 import Settings from "./pages/Settings";
 import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
+import Charts from "./pages/Charts";
+import Products from "./pages/Products";
+import Users from "./pages/Users";
 function App() {
   const { user } = useAuth(); // بنشوف في يوزر متسجل ولا لأ
 
@@ -49,6 +52,9 @@ function App() {
         <main className="col ms-0 ms-md-2 p-2">
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/charts" element={<Charts />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/users" element={<Users />} />
             <Route path="/settings" element={<Settings />} />
             {/* لو دخل على الـ root نوديه للداشبورد أوتوماتيك */}
             <Route path="/" element={<Navigate to="/dashboard" />} />

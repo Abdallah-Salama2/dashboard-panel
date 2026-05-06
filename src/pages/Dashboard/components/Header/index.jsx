@@ -3,7 +3,7 @@ import SearchBar from "../../../../components/SearchBar";
 
 export default function Header() {
   return (
-    <div className="row g-0 pt-4 align-items-center gap-md-4 gap-lg-0  ">
+    <div className="row g-0 py-4 align-items-center gap-md-4 gap-lg-0  ">
       {/* Welcome User */}
       <div className="col-12 col-lg-5 text-center text-lg-start ">
         <h2 className="fw-bold fs-3 text-black">Welcome Back Ameerah Howard</h2>

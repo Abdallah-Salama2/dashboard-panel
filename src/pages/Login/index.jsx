@@ -26,7 +26,6 @@ export default function Login() {
         login(response);
         navigate("/dashboard");
       } else {
-        // لو الداتا رجعت فاضية معناها اليوزر مش موجود
         setError("اسم المستخدم أو كلمة المرور غلط!");
       }
     } catch (err) {

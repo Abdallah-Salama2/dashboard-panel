@@ -6,10 +6,10 @@ export default function SideBar({ className }) {
   const menuItems = [
     { icon: "fa-brands fa-microsoft", path: "/dashboard" },
     { icon: "fa-solid fa-chart-line", path: "/charts" },
-    { icon: "fa-solid fa-people-group", path: "/people-group" },
+    { icon: "fa-solid fa-cubes", path: "/products" },
+    { icon: "fa-solid fa-people-group", path: "/users" },
     { icon: "fa-solid fa-bell", path: "/notifications" },
     { icon: "fa-solid fa-inbox", path: "/inbox" },
-    { icon: "fa-solid fa-layer-group", path: "/layer" },
     { icon: "fa-solid fa-list-ul", path: "/list" },
     { icon: "fa-solid fa-table-cells", path: "/table" },
     { icon: "fa-solid fa-gear", path: "/settings" },

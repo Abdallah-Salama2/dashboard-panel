@@ -2,10 +2,24 @@
   "users": [
     {
       "id": "1",
+      "name": "Ameerah Howard",
       "username": "ameerah",
       "password": "123",
-      "fullName": "Ameerah Howard",
       "role": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Abdallah Salama",
+      "username": "Alas21",
+      "password": "123",
+      "role": "Admin"
+    },
+    {
+      "id": 3,
+      "name": "Ahmed Mohamed",
+      "username": "afas",
+      "password": "456",
+      "role": "Editor"
     }
   ],
   "stats": [

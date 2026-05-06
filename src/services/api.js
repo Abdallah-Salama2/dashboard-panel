@@ -3,6 +3,11 @@ import axios from "axios";
 // ده العنوان الثابت للسيرفر بتاعنا
 const url = "http://localhost:5000";
 
+export const getUsers = async () => {
+  const res = await axios.get(`${url}/users`);
+  return res.data;
+};
+
 // دالة تجيب بيانات الاحصائيات
 export const getStats = async () => {
   const res = await axios.get(`${url}/stats`);
