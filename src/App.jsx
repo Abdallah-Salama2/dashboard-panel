@@ -12,7 +12,6 @@ import Users from "./pages/Users";
 function App() {
   const { user } = useAuth(); // بنشوف في يوزر متسجل ولا لأ
 
-  // لو مفيش يوزر، بنعرض صفحة اللوجن بس من غير NavBar ولا SideBar
   if (!user) {
     return (
       <Routes>
@@ -22,7 +21,7 @@ function App() {
     );
   }
 
-  // لو في يوزر (عمل Login)، بنعرض الشكل الكامل بتاع الداشبورد
+  //  بنعرض الشكل الكامل بتاع الداشبورد لو فيه يوزر
   return (
     <div
       className="container-fluid p-0 min-vh-100"
@@ -36,7 +35,6 @@ function App() {
       </div>
 
       <div className="row g-0 p-0">
-        {/* السايد بار بيظهر بس لما اليوزر يدخل */}
         <aside
           className="col-auto d-none d-md-flex d-none d-md-block"
           style={{

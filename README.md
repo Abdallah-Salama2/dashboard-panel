@@ -8,6 +8,8 @@
 
 - Backend API (Railway): https://dashboard-panel-production-e50c.up.railway.app/
 
+-Test Credentials (UserName:Alas21,Pass:123)
+
 ## 📂 Project Structure
 
 The project follows a modular architecture for scalability and clean code management:
