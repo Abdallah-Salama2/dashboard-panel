@@ -1,6 +1,5 @@
 # 1. بنقول لدوكر استخدم نسخة Node خفيفة
-FROM node:18-alpine
-
+FROM node:20-alpine
 # 2. بنحدد الفولدر اللي هنشتغل جواه جوه الكرتونة
 WORKDIR /app
 
