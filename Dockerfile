@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 5173
 
 # 7. الأمر اللي بيشغل المشروع
-CMD ["npm", "run", "dev", "--", "--host"]
+CMD ["npx", "json-server", "--watch", "db.json", "--port", "5000", "--host", "0.0.0.0", "--cors"]

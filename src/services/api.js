@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // ده العنوان الثابت للسيرفر بتاعنا
-const url = "http://localhost:5000";
+// const url = "http://localhost:5000";
+const url = "https://dashboard-panel-production-e50c.up.railway.app";
 
 export const getUsers = async () => {
   const res = await axios.get(`${url}/users`);
