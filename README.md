@@ -1,8 +1,12 @@
 # 🚀 Modern Dashboard Panel
 
-A responsive and dynamic admin dashboard built with React, Vite, and Context API, featuring a mock backend powered by JSON Server.
+## A responsive and dynamic admin dashboard built with React, Vite, and Context API, featuring a mock backend powered by JSON Server.
 
----
+## 🚀 Live Demo
+
+Frontend (Vercel): https://dashboard-panel-zeta.vercel.app/
+
+## Backend API (Railway): https://dashboard-panel-production-e50c.up.railway.app/
 
 ## 📂 Project Structure
 
