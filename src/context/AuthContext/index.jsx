@@ -2,6 +2,7 @@ import { createContext, useState, useContext, useEffect } from "react";
 
 // 1. عمل الدفتر نفسه (Context)
 const AuthContext = createContext();
+export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }) => {
   // حالة اليوزر (هل هو موجود ولا null)
@@ -31,4 +32,3 @@ export const AuthProvider = ({ children }) => {
 };
 
 // Hook مخصص عشان يسهل علينا استخدام الدفتر ده في أي مكان
-export const useAuth = () => useContext(AuthContext);
