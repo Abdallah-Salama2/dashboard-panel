@@ -11,6 +11,9 @@
     "preview": "vite preview",
     "api": "json-server --watch db.json --port 5000"
   },
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
     "@fortawesome/free-brands-svg-icons": "^7.2.0",
